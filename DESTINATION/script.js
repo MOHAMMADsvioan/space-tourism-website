@@ -13,7 +13,7 @@ const dropDot3 = document.querySelectorAll(".dropping-dot")[2];
 function hover1() {
   dropDot1.classList.remove("hidden");
 
-  dropDot1.classList.add("translated");
+  dropDot1.classList.add("translated2");
 
   function delayed() {
     dropDot1.classList.add("mouseon");
@@ -26,7 +26,7 @@ function hover1() {
 function hover2() {
   dropDot2.classList.remove("hidden");
 
-  dropDot2.classList.add("translated");
+  dropDot2.classList.add("translated2");
 
   function delayed() {
     dropDot2.classList.add("mouseon");
@@ -39,7 +39,7 @@ function hover2() {
 function hover3() {
   dropDot3.classList.remove("hidden");
 
-  dropDot3.classList.add("translated");
+  dropDot3.classList.add("translated2");
 
   function delayed() {
     dropDot3.classList.add("mouseon");
@@ -64,7 +64,7 @@ function unhover1() {
   dropDot1.classList.add("mouseout");
 
   function delayed() {
-    dropDot1.classList.remove("translated");
+    dropDot1.classList.remove("translated2");
 
     dropDot1.classList.add("hidden");
   }
@@ -77,7 +77,7 @@ function unhover2() {
   dropDot2.classList.add("mouseout");
 
   function delayed() {
-    dropDot2.classList.remove("translated");
+    dropDot2.classList.remove("translated2");
 
     dropDot2.classList.add("hidden");
   }
@@ -90,7 +90,7 @@ function unhover3() {
   dropDot3.classList.add("mouseout");
 
   function delayed() {
-    dropDot3.classList.remove("translated");
+    dropDot3.classList.remove("translated2");
 
     dropDot3.classList.add("hidden");
   }
